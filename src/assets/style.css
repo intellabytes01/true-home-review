@@ -1,0 +1,438 @@
+/*login  css */
+/*global styles*/
+.light-background {
+  background: #e9e9ec;
+}
+
+.button-primary {
+  border-radius: 25px;
+  background-color: #365f80;
+  color: #ffffff;
+  padding: 0px 21px;
+  font-size: 13px;
+  min-width: 91px;
+  border-color: transparent;
+}
+
+.button-primary:hover {
+  color: #fff;
+}
+
+.login {
+  background: #1a4161;
+  height: 100vh;
+}
+
+.login .login-form {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.login .login-form input.form-control {
+  height: 28px;
+  font-size: 14px;
+  background: transparent;
+}
+
+.login .login-form input.form-control:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.login .login-form label {
+  font-size: 14px;
+}
+
+.login .login-form label, .login .login-form a {
+  color: #ffffff;
+  color: #365f80;
+}
+
+.login .login-form img {
+  width: 100%;
+}
+
+.login .login-form .btn-login {
+  display: block;
+  border-radius: 118px;
+  padding: 0px 32px 3px;
+  font-size: 16px;
+  text-align: center;
+  background: #ffffff;
+  border: none;
+  color: #1a4161;
+}
+
+.login .login-form a.external-link {
+  margin: 0 auto;
+  display: block;
+  font-size: 11px;
+}
+
+/*sidenav styles here */
+.left-side-bar {
+  width: 300px;
+  height: 100vh;
+  background: #1a4161;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.left-side-bar ul {
+  height: 100vh;
+  overflow: auto;
+}
+
+.left-side-bar ul li a {
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  padding-left: 65px;
+  color: #ffffff;
+}
+
+.left-side-bar ul li a:hover {
+  background: #2a4f6dad;
+}
+
+.left-side-bar ul li .active {
+  background: #365f80;
+}
+
+.switch-content {
+  width: calc(100% - 300px);
+  padding: 0px;
+}
+
+.dashboard {
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.dashboard .count {
+  background-color: #f2f2f2;
+}
+
+.dashboard .count h2 {
+  font-size: 100px;
+  color: #1a4161;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.dashboard .count p {
+  color: #365f80;
+  font-weight: 600;
+}
+
+.dashboard .job-listing h2 {
+  font-size: 18px;
+  border-bottom: 1px solid #365f80;
+  color: #1a4161;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+.dashboard .job-listing .job-info .job-info-head h3 {
+  font-size: 14px;
+  margin: 0;
+  font-weight: 600;
+  color: #1a4161;
+}
+
+.dashboard .job-listing .job-info .job-info-head p {
+  font-size: 14px;
+  color: #365f80;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.dashboard .job-listing .job-info .job-info-content p {
+  margin: 0;
+  font-size: 12px;
+  color: #365f80;
+}
+
+.dashboard .job-listing .job-info .job-info-content p span {
+  color: #1a4161;
+}
+
+.inspections {
+  min-height: 100vh;
+  padding-bottom: 20px;
+}
+
+.inspections .inspection-header {
+  background-color: #ffffff;
+  padding: 0px 10px 5px 50px;
+}
+
+.inspections .inspection-header .inspection-filter-wrpaaer {
+  float: left;
+}
+
+.inspections .inspection-header .inspection-btn-wrapper {
+  float: right;
+}
+
+.inspections .inspection-header .inspection-btn-wrapper ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0;
+}
+
+.inspections .inspection-header .inspection-btn-wrapper ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inspections .inspection-header .inspection-btn-wrapper ul li span {
+  display: block;
+}
+
+.inspections .property-wrapper ul {
+  list-style-type: none;
+}
+
+.inspections .property-wrapper ul li .property-card {
+  background: #ffffff;
+}
+
+.inspections .property-wrapper ul li .property-card .proderty-details .property-head h2 {
+  color: #1a4161;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.inspections .property-wrapper ul li .property-card .proderty-details .property-head p {
+  font-size: 13px;
+  color: #365f80;
+  margin-bottom: 10px;
+}
+
+.inspections .property-wrapper ul li .property-card .property-content span {
+  font-size: 12px;
+  color: #365f80;
+  display: block;
+  float: left;
+}
+
+.inspections .property-wrapper ul li .property-card .property-content span.title {
+  font-weight: 600;
+  width: 100px;
+  text-align: right;
+  margin-right: 15px;
+}
+
+.inspections .property-wrapper ul li .property-card .property-content span.title-description {
+  width: calc(100% - 115px);
+}
+
+.inspections .property-wrapper.property-grid ul li {
+  width: 33.3333%;
+  float: left;
+  padding: 10px;
+}
+
+.inspections .property-wrapper.property-grid ul li .property-card {
+  padding: 15px;
+}
+
+.inspections .property-wrapper.property-grid ul li .property-card .property-picture {
+  margin-bottom: 15px;
+}
+
+.inspections .property-wrapper.property-grid ul li .property-card .proderty-details .property-head {
+  border-bottom: 1px solid #365f80;
+  margin-bottom: 10px;
+}
+
+.inspections .property-wrapper.property-list ul li {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.inspections .property-wrapper.property-list ul li .property-card {
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.inspections .property-wrapper.property-list ul li .property-card .property-picture {
+  float: left;
+  width: 100px;
+  margin-bottom: 0;
+  padding-right: 10px;
+}
+
+.inspections .property-wrapper.property-list ul li .property-card .proderty-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: calc(100% - 100px);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  padding-top: 5px;
+}
+
+.inspections .property-wrapper.property-list ul li .property-card .proderty-details .property-head {
+  float: left;
+  width: 240px;
+}
+
+.inspections .property-wrapper.property-list ul li .property-card .proderty-details .property-head h2 {
+  font-size: 13px;
+}
+
+.inspections .property-wrapper.property-list ul li .property-card .proderty-details .property-head p {
+  margin-bottom: 0;
+  font-size: 11px;
+}
+
+.inspections .property-wrapper.property-list ul li .property-card .proderty-details .property-content {
+  width: calc(100% - 240px);
+}
+
+.inspections .property-wrapper.property-list ul li .property-card .proderty-details .property-content .property-listing {
+  float: left;
+  width: 20%;
+}
+
+.inspections .property-wrapper.property-list ul li .property-card .proderty-details .property-content .property-listing span.title {
+  text-align: left;
+  display: block;
+  width: 100%;
+  margin-right: 0;
+  font-size: 12px;
+}
+
+.inspections .property-wrapper.property-list ul li .property-card .proderty-details .property-content .property-listing span.title-description {
+  width: 100%;
+  font-size: 11px;
+}
+
+.inspections .property-wrapper.property-list ul li .property-card .proderty-details .property-content .property-listing.mb-2 {
+  margin-bottom: 0 !important;
+}
+
+.communities {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.communities .comunityCard {
+  background: #ffffff;
+  padding: 15px;
+}
+
+.communities .comunityCard ul li {
+  display: inline-block;
+  width: 33.3333%;
+  margin: 17px 0 0;
+}
+
+.communities .comunityCard .Card-header {
+  border-bottom: 1px solid #365f80;
+}
+
+.communities .comunityCard .Card-header ul li {
+  display: inline-block;
+  font-size: 13px;
+  color: #365f80;
+}
+
+.communities .comunityCard .Card-header ul li h6 {
+  color: #1a4161;
+  font-size: 18px;
+}
+
+.communities .comunityCard .Card-header .comunity_name {
+  width: 30%;
+}
+
+.communities .comunityCard .Card-header .comunity_add {
+  width: 25%;
+}
+
+.communities .comunityCard .Card-header .comunity_zone {
+  width: 10%;
+}
+
+.communities .comunityCard .Card-header .comunity_id {
+  width: 25%;
+}
+
+.communities .comunityCard .Card-header .comunity_edit {
+  width: 10%;
+  text-align: right;
+}
+
+.communities .comunityCard .comunityInfo {
+  color: #365f80;
+}
+
+.communities .comunityCard .comunityInfo p {
+  font-size: 13px;
+}
+
+.clients {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.clients .ClientCard {
+  background: #ffffff;
+  padding: 15px;
+}
+
+.clients .ClientCard .cl-card-header {
+  border-bottom: 1px solid #365f80;
+}
+
+.clients .ClientCard .cl-card-header ul li {
+  display: inline-block;
+  font-size: 13px;
+}
+
+.clients .ClientCard .cl-card-header ul li:nth-child(2) {
+  position: absolute;
+  right: 0;
+}
+
+.clients .ClientCard .cl-card-header ul li h6 {
+  color: #1a4161;
+  font-size: 18px;
+}
+
+.clients .ClientCard .cl-card-body .ClientInfo ul li {
+  font-size: 13px;
+  display: inline-block;
+  width: 25%;
+  color: #365f80;
+}
+/*# sourceMappingURL=style.css.map */
